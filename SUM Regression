@@ -1,0 +1,8 @@
+x <- c(140,145,178,198,136,172,156,162,191,111)
+y <- c(32,74,36,98,87,21,48,55,96,92)
+relation <- lm(y~x)
+print(relation)
+print(summary(relation))
+a <- data.frame(x = 150)
+result <-  predict(relation,a)
+print(result)
