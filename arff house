@@ -1,0 +1,16 @@
+@relation address
+@attribute door_no numeric
+@attribute street_no numeric
+@attribute sreet_line numeric
+@attribute pin_code numeric
+@attribute type{"Rent","Own"}
+@data
+101,11,2,621306,Rent
+223,23,1,98758,Own
+881,12,3,86421,Own
+232,10,4,28996,Rent
+432,13,5,76742,Rent
+987,15,7,43267,Own
+654,14,8,68762,Rent
+162,22,11,97932,Own
+177,20,10,25771,Own
