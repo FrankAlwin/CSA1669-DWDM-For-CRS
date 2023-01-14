@@ -1,0 +1,25 @@
+@relation Prisoner
+@attribute Pri_no numeric
+@attribute Pri_roomno numeric
+@attribute Pri_age numeric
+@attribute Pri_case numeric
+@attribute Pri_inprison numeric
+@attribute Pri_remaining numeric
+@attribute type{"Bail","Nobail"}
+@data
+121,43,32,3,2,1,Bail
+122,44,39,2,4,3,Bail
+123,45,43,4,1,1,Bail
+124,46,25,5,3,10,Nobail
+125,47,49,2,6,2,Nobail
+126,48,55,4,4,3,Bail
+127,49,29,5,2,1,Nobail
+128,33,50,6,7,3,Bail
+129,34,35,8,4,2,Nobail
+120,23,27,3,2,3,Bail
+101,22,34,4,6,3,Bail
+102,67,59,11,13,2,Nobail
+103,50,48,5,7,1,Bail
+104,61,21,2,1,1,Bail
+105,27,36,1,1,1,Bail
+111,31,65,15,16,4,Nobail
